@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "774838749230",
+    "firebase_url": "https://smartpay-6afac.firebaseio.com",
+    "project_id": "smartpay-6afac",
+    "storage_bucket": "smartpay-6afac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774838749230:android:e4b06d65d374e4ea",
+        "android_client_info": {
+          "package_name": "demo.pay.com.smartpat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "774838749230-btol045c557m953ln7guscs828iksfje.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "demo.pay.com.smartpat",
+            "certificate_hash": "0300fad76b82d6ee3edb96561652c215795b6c37"
+          }
+        },
+        {
+          "client_id": "774838749230-a8ctatve509v8t38q9gl49rims6bt9l2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAVyOPa60FUW6_tZEcoF7ad1LSQ2OHrjc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "774838749230-a8ctatve509v8t38q9gl49rims6bt9l2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

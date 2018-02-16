@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_bg_red"
+    tools:context="demo.pay.com.smartpat.fragment.SendMoneyFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your amount."
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"/>
+    <EditText
+        android:id="@+id/amount_view"
+        android:layout_below="@+id/txtView"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:hint="$"
+        android:gravity="center"
+        android:textColorHint="@color/white"
+        android:layout_centerHorizontal="true"
+        android:inputType="number"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/amount_view">
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center"
+            android:src="@drawable/disclaimar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="8sp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center"
+        android:text="Don't worry,your money will be sent in higly secure channel."
+        android:gravity="center"
+       />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:text="Send"/>
+
+
+
+</RelativeLayout>
